@@ -1,8 +1,9 @@
 package ru.job4j.annotation;
 
 import org.springframework.stereotype.Component;
+
 @Component
-public class Bird implements Pet<Bird>{
+public class Bird implements Pet<Bird> {
     private String name = "Bird";
 
     @Override
