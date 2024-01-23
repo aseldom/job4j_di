@@ -1,8 +1,5 @@
 package ru.job4j.di.model;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class StartUI {
 
     private Store store;
